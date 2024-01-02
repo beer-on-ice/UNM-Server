@@ -174,43 +174,43 @@
       <a href="https://imsyy.top/" target="_blank">無名</a>
     </div>
     <div class="icp">
-      <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2022018134号-1</a>
+      <a href="https://icp.gov.moe/?keyword=20248881/" target="_blank">萌ICP备20248881号</a>
     </div>
   </footer>
   <script>
     // 跟随系统主题
     const darkModeMediaQuery = window.matchMedia(
       "(prefers-color-scheme: dark)"
-    );
+    )
     const toggleDarkMode = (darkModeMediaQuery) => {
       if (darkModeMediaQuery.matches) {
-        document.documentElement.classList.add("dark-mode");
+        document.documentElement.classList.add("dark-mode")
       } else {
-        document.documentElement.classList.remove("dark-mode");
+        document.documentElement.classList.remove("dark-mode")
       }
-    };
-    darkModeMediaQuery.addListener(toggleDarkMode);
-    toggleDarkMode(darkModeMediaQuery);
+    }
+    darkModeMediaQuery.addListener(toggleDarkMode)
+    toggleDarkMode(darkModeMediaQuery)
 
     // 按钮事件
     const clickFunction = () => {
-      window.location.href = "/test";
-    };
+      window.location.href = "/test"
+    }
 
     // 社交链接跳转
     const socialJump = (type) => {
       switch (type) {
         case "github":
-          window.location.href = "https://github.com/imsyy/";
-          break;
+          window.location.href = "https://github.com/imsyy/"
+          break
         case "home":
-          window.location.href = "https://www.imsyy.top/";
-          break;
+          window.location.href = "https://www.imsyy.top/"
+          break
         case "email":
-          window.location.href = "mailto:one@imsyy.top";
-          break;
+          window.location.href = "mailto:one@imsyy.top"
+          break
         default:
-          break;
+          break
       }
     };
   </script>
